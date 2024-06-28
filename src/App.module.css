@@ -1,0 +1,12 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    flex-direction: column;
+}
+
+.name-city{
+	height: 2.38rem;	
+	margin-top: 1.5rem;
+	margin-left: 1rem;
+}

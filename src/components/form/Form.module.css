@@ -1,0 +1,50 @@
+.form,
+.field {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.form input[type="text"], .form select{
+    padding: 1rem 0rem;
+    text-indent: 1rem;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-left: 0.1rem solid var(--primary);
+    border-bottom: 0.1rem solid var(--primary); 
+    border-radius: 0.25rem;
+    color: var(--primary);
+    font-size: 1.6rem;
+}
+
+.form input[type="text"]:focus{
+    background-color: #202020;
+}
+
+.form select option{
+    background-color: #202020;
+    color: var(--primary);
+    font-size: 1.6rem;
+}
+
+.submit {
+    background-color: transparent;
+    color: var(--primary);
+    border-radius: 0.5rem;
+    font-weight: 700;
+    font-size: 1.7rem;
+    padding: 1rem 1.8rem;
+    outline: none;
+    border: 0.1rem solid var(--primary);
+    text-transform: uppercase;
+}
+
+.submit:hover{
+    background-color: var(--primary);
+    color: #202020;
+    cursor: pointer;
+    transition: 0.45s all ease-in-out;
+   
+}
+
